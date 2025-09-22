@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.patbattb</groupId>
-    <artifactId>YouGile-Plugins-Core</artifactId>
+    <artifactId>PB-Plugins-Core</artifactId>
     <version>1.0.0</version>
 
     <properties>

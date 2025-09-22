@@ -1,10 +1,10 @@
-## YouGile plugins platform 
+## PB-Plugins platform 
 ___
 ### Core
 ___
 #### Description
 ___
-Пакет содержит базовый интерфейс для плагинов, которые могут загружаться менеджером `YouGIle-Plugins-Manager`.
+Пакет содержит базовый интерфейс для плагинов, которые могут загружаться менеджером `PB-Plugins-Manager`.
 
 Интерфейс создан отдельным пакетом, что бы избежать подключения излишних данных.
 ___
@@ -25,7 +25,7 @@ mvn clean package deploy
 ```xml
 <dependency>
     <groupId>io.github.patbattb</groupId>
-    <artifactId>YouGile-Plugins-Core</artifactId>
+    <artifactId>PB-Plugins-Core</artifactId>
     <version>current_version</version>
 </dependency>
 ```

@@ -1,4 +1,4 @@
-package io.github.patbattb.yougile.plugins.core.expection;
+package io.github.patbattb.plugins.core.expection;
 
 public class PluginCriticalException extends Exception {
     public PluginCriticalException() {

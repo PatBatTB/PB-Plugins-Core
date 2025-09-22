@@ -1,9 +1,9 @@
-package io.github.patbattb.yougile.plugins.core;
+package io.github.patbattb.plugins.core;
 
-import io.github.patbattb.yougile.plugins.core.expection.PluginCriticalException;
-import io.github.patbattb.yougile.plugins.core.expection.PluginInterruptedException;
+import io.github.patbattb.plugins.core.expection.PluginCriticalException;
+import io.github.patbattb.plugins.core.expection.PluginInterruptedException;
 
-public abstract class YouGilePlugin {
+public abstract class Plugin {
     public abstract String getTitle();
     public abstract boolean isRepeatable();
     public abstract int timeout();
