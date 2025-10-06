@@ -14,20 +14,4 @@ ___
 
 Плагины для платформы должны реализовать данный интерфейс, после чего они смогут быть обработаны менеджером плагинов.
 
-В текущей реализации можно сбилдить данный проект и залить в локальный репозиторий maven
-
-```bash
-mvn clean package deploy
-```
-
-После чего его можно подключить как зависимость при написании плагина:
-
-```xml
-<dependency>
-    <groupId>io.github.patbattb</groupId>
-    <artifactId>PB-Plugins-Core</artifactId>
-    <version>current_version</version>
-</dependency>
-```
-
-Инструкция будет дополнена при реализации менеджера плагинов.
+Пакет доступен в центральном реплзитории [maven](https://mvnrepository.com/artifact/io.github.patbattb/pb-plugins-core).
